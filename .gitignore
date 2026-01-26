@@ -1,0 +1,23 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+
+# Logs
+*.log
+
+# Data files
+data/
+!data/.gitkeep
+
+# Environment files
+.env
