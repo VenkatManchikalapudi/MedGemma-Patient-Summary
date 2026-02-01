@@ -1,0 +1,14 @@
+# Configuration file for routes
+tools:
+  - path: "/images"
+    method: "GET"
+    handler: "process_images"
+  - path: "/structured-data"
+    method: "GET"
+    handler: "process_structured_data"
+  - path: "/text"
+    method: "GET"
+    handler: "process_text_data"
+  - path: "/med-test-gemma"
+    method: "GET"
+    handler: "process_med_test_gemma"

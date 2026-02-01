@@ -2,22 +2,35 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 
 # Virtual environment
 .venv/
+venv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# IDE settings
+.vscode/
+.idea/
 
 # OS-specific files
 .DS_Store
+Thumbs.db
 
 # Logs
 *.log
+*.out
+*.err
 
-# Data files
-data/
-!data/.gitkeep
+# Test coverage
+.coverage
+*.cover
+coverage.xml
 
-# Environment files
+# Environment variables
 .env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg

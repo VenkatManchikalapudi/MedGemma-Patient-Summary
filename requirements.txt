@@ -1,0 +1,15 @@
+moviepy
+transformers
+torch
+Flask==3.1.2
+semantic-router==0.1.12
+langchain
+ollama
+streamlit
+google-generativeai
+python-dotenv
+imageio-ffmpeg
+watchdog
+requests
+yt-dlp
+pytube
