@@ -34,3 +34,7 @@ build/
 dist/
 *.egg-info/
 *.egg
+
+# Ignore data files
+data/
+!data/.gitkeep
